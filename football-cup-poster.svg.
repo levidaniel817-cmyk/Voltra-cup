@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <defs>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B3A2C"/>
+      <stop offset="1" stop-color="#0F5A3F"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6D77A"/>
+      <stop offset="0.5" stop-color="#E3B23C"/>
+      <stop offset="1" stop-color="#B8851C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F6D77A" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#F6D77A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1080" height="1350" fill="url(#grass)"/>
+  <g fill="none" stroke="#F5F7F2" stroke-width="4" opacity="0.28">
+    <rect x="60" y="60" width="960" height="1230"/>
+    <line x1="60" y1="675" x2="1020" y2="675"/>
+    <circle cx="540" cy="675" r="170"/>
+    <rect x="290" y="60" width="500" height="190"/>
+    <rect x="290" y="1100" width="500" height="190"/>
+  </g>
+  <g text-anchor="middle" font-family="'Arial Black', Impact, Arial, sans-serif">
+    <text x="540" y="170" font-size="40" fill="#F6D77A" letter-spacing="6" font-weight="900">COMMUNITY</text>
+    <text x="540" y="290" font-size="128" fill="#F5F7F2" font-weight="900" letter-spacing="2">FOOTBALL</text>
+    <text x="540" y="400" font-size="128" fill="url(#gold)" font-weight="900" letter-spacing="2">CUP</text>
+  </g>
+  <ellipse cx="540" cy="720" rx="260" ry="260" fill="url(#glow)"/>
+  <g transform="translate(540 720)">
+    <path d="M-120 -170 C-210 -170 -210 -60 -120 -40" fill="none" stroke="url(#gold)" stroke-width="22" stroke-linecap="round"/>
+    <path d="M120 -170 C210 -170 210 -60 120 -40" fill="none" stroke="url(#gold)" stroke-width="22" stroke-linecap="round"/>
+    <path d="M-130 -200 H130 C130 -80 90 -10 0 10 C-90 -10 -130 -80 -130 -200 Z" fill="url(#gold)"/>
+    <rect x="-18" y="8" width="36" height="90" fill="url(#gold)"/>
+    <ellipse cx="0" cy="100" rx="60" ry="14" fill="#B8851C"/>
+    <rect x="-110" y="108" width="220" height="48" rx="6" fill="url(#gold)"/>
+    <rect x="-140" y="156" width="280" height="44" rx="6" fill="#8A6212"/>
+    <circle cx="0" cy="-250" r="52" fill="#F5F7F2" stroke="#0B3A2C" stroke-width="5"/>
+    <polygon points="0,-278 24,-260 15,-232 -15,-232 -24,-260" fill="#0B3A2C"/>
+  </g>
+  <g text-anchor="middle" font-family="Arial, sans-serif">
+    <text x="540" y="1010" font-size="44" fill="#F5F7F2" font-weight="700">Free to enter. Open to the whole community.</text>
+    <text x="540" y="1066" font-size="32" fill="#F5F7F2" opacity="0.8">Date and venue to be announced</text>
+  </g>
+  <rect x="60" y="1130" width="960" height="160" fill="#F5F7F2"/>
+  <g font-family="Arial, sans-serif">
+    <text x="100" y="1196" font-size="28" fill="#0B3A2C" font-weight="600">Proudly sponsored by</text>
+    <text x="100" y="1262" font-size="64" fill="#0B3A2C" font-family="'Arial Black', Impact, Arial, sans-serif" font-weight="900" letter-spacing="3">VOLTRA</text>
+    <polygon points="520,1160 478,1232 506,1232 494,1272 548,1196 518,1196" fill="#E3B23C" stroke="#0B3A2C" stroke-width="3" stroke-linejoin="round"/>
+    <text x="660" y="1196" font-size="28" fill="#0B3A2C" font-weight="600">Hosted by</text>
+    <text x="660" y="1256" font-size="48" fill="#0B3A2C" font-weight="800">Daniel Levi
